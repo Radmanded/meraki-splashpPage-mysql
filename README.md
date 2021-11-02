@@ -81,16 +81,19 @@ i.e.$ python3 -m venv meraki
 - Must be in virtual environment to use pip
     ```pip
     $ pip3 install -r requirements.txt
+    ```
 - Verify install (Ensure you have all packages from requirement.txt)
+    ```
     $ pip freeze
     $ cat requirements.txt
+    ```
 - Troubleshoot
     - If unable to install application/package 
         - Research https://pypi.org/ to see if the package name has changed
         - Try install the app missing using pip
         - Try deactivating virtual venv and installing from bash
         - Search online to troubleshoot why package isn't install
-    ```
+    
 - Allow admin access to the Captive Portal Repo
     ```bash
     $ sudo chmod 777 ../Meraki_Captive_Portal
