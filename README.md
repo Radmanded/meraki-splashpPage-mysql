@@ -12,7 +12,7 @@ In your Ubuntu Workstation create a file in the home folder ~.
 $mkdir <folder>
 '''
 
-### Install Git
+**### Install Git**
 
 ```bash
 $sudo apt install git
